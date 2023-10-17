@@ -1,0 +1,18 @@
+header {
+    background-color: teal;
+    color: white;
+}
+
+.logo {
+    /* width: 8rem; */
+}
+
+#jumbo {
+    background-color: blueviolet;
+    color: white;
+}
+
+footer {
+    background-color: teal;
+    color: white;
+}
