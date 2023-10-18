@@ -1,18 +1,67 @@
-header {
-    background-color: teal;
-    color: white;
+:root {
+    --navbar-height: 5rem;
 }
 
-.logo {
-    /* width: 8rem; */
+html {
+    scroll-behavior: smooth;
+}
+
+section {
+    scroll-margin: 5rem;
+}
+
+header > nav {
+    height: var(--navbar-height);
+    background: rgba(255,255,255, 0.6);
+}
+
+.myLogo {
+    max-width: 8rem;
+    width: 100%;
 }
 
 #jumbo {
-    background-color: blueviolet;
     color: white;
+    min-height: calc(100vh);
+    background: url("../img/moon.jpg");
+    background-size: cover;
+}
+
+#jumbo #fullPage {
+    padding-top: var(--navbar-height);
+    min-height: 100vh;
+}
+
+#jumbo h1 {
+    font-size: clamp(2rem, 12vh, 6rem);
+}
+#jumbo p {
+    font-size: clamp(1rem, 3vh, 2rem);
+}
+
+#fascione {
+    background: url("../img/moon.jpg");
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: center;
+}
+
+.myImgMask {
+    overflow: hidden;
+    border-radius: 0.5rem;
+}
+
+.myCustomer {
+    transition: all 350ms;
+}
+
+.myImgMask:hover .myCustomer {
+    transform: scale(125%);
+    filter: brightness(110%) contrast(120%);
 }
 
 footer {
     background-color: teal;
     color: white;
 }
+
