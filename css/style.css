@@ -23,7 +23,8 @@ header > nav {
 #jumbo {
     color: white;
     min-height: calc(100vh);
-    background: url("../img/moon.jpg");
+    /* background: url("../img/moon.jpg"); */
+    background: url("https://raw.githubusercontent.com/lambia/bootstrap/main/img/moon.jpg");
     background-size: cover;
 }
 
@@ -40,7 +41,8 @@ header > nav {
 }
 
 #fascione {
-    background: url("../img/moon.jpg");
+    background-color: #222;
+    background: url("https://raw.githubusercontent.com/lambia/bootstrap/main/img/moon.jpg");
     background-size: cover;
     background-attachment: fixed;
     background-position: center;
